@@ -24,7 +24,7 @@ L.control.scale().addTo(map);
 // L.marker([41.767068, -72.716280]).addTo(map);
 
 // Edit file name of the GeoJson map data to be uploaded from your local directory
-$.getJSON("USA.geojson", function (data) {
+$.getJSON("USA.json", function (data) {
   var geoJsonLayer = L.geoJson(data, {
     style: function (feature) {
       var fillColor,
