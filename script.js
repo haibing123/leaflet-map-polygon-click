@@ -7,7 +7,7 @@ var map = L.map('map', {
 
 // Edit links to your GitHub repo and data source credit
 map.attributionControl
-.setPrefix('View <a href="http://github.com/jackdougherty/leaflet-map-polygon-click">open-source code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+.setPrefix('View <a href="http://github.com/haibing123/leaflet-map-polygon-click">open-source code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
 map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census</a>');
 
 // Basemap layer
@@ -24,7 +24,7 @@ L.control.scale().addTo(map);
 // L.marker([41.767068, -72.716280]).addTo(map);
 
 // Edit file name of the GeoJson map data to be uploaded from your local directory
-$.getJSON("opp-index-2014.geojson", function (data) {
+$.getJSON("USA.geojson", function (data) {
   var geoJsonLayer = L.geoJson(data, {
     style: function (feature) {
       var fillColor,
