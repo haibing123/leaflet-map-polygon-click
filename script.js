@@ -11,7 +11,7 @@ map.attributionControl
 map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census</a>');
 
 // Basemap layer
-new L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+new L.tileLayer('http://506sports.com/2018/03-CBS-V3.png', {
 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
 }).addTo(map);
 
